@@ -2,6 +2,7 @@ class King extends Piece {
 	constructor(position, name) {
 		super(position, 'king', name);
 		this.ableToCastle = true;
+		
 	}
 
 
